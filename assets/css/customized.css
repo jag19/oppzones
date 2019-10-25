@@ -111,6 +111,9 @@
 }
 
 nav#nav .menuItems .mobileHidden {
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+  	display: -ms-flexbox !important;
 	display: flex !important;
 }
 
@@ -122,6 +125,9 @@ nav#nav .menuItems ul {
 /* ---- FLEXBOX ---- */
 
 ul.cards li, .card, .card .container, #header, nav#nav .menuItems ul, nav#nav {
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -131,6 +137,10 @@ nav#nav .menuItems ul, nav#nav {
 
 ul.cards .fact, ul.cards .myth, .menuItems ul li {
 	align-items: center;
+	-webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
 	flex: 1;
 }
 
@@ -245,8 +255,12 @@ section#banner .inner {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	-webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
 	flex: 1;
-	text-decoration:none;
+	text-decoration: none;
 	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
 	font-weight:bold; color: #FFFFFF;
 	background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
@@ -289,6 +303,10 @@ section#banner .inner {
 
 #header .headerLogo img {
 	display: inline-block;
+	-webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
 	flex: 1;
 	margin-left: 5vw;
 	padding-top: 20px;
@@ -310,9 +328,14 @@ ul.cards li {
 }
 
 ul.cards .myth p, ul.cards .fact p {
+	-webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
 	flex: 1;
 	display: block;
 	letter-spacing: 0px;
+	
 	padding: 0 3%;
 	margin: 0 !important;
 }
