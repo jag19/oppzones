@@ -81,7 +81,7 @@
 	}
 }
 
-/* ☠️ INTERNET EXPLORER ONLY ☢️ */
+/* INTERNET EXPLORER ONLY */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	ul.cards .myth p, ul.cards .fact p {
 		display: block;
@@ -216,7 +216,7 @@ section#facts {
 }
 
 section#banner .inner {
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.9);
 }
 
 .wrapper.style3 {
